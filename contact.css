@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Oswald&family=Rubik+Broken+Fax&family=Ubuntu&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(39, 39, 92);
+    color: aliceblue;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page1 nav{
+    height: 10vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.page1 nav img {
+    height: 7vh;
+    margin-left: 50%;
+    transition: .5s;
+    margin-left: 5%;
+}
+
+.page1 nav>a {
+    margin-left: 5%;
+}
+
+.page1 nav img:hover{
+    filter: drop-shadow(11px 11px 20px black);    
+    cursor: pointer;
+}
+
+.nav-text{
+    margin-left: 10%;
+}
+
+.nav-text a:hover {
+    color: blueviolet;
+    filter: drop-shadow(10px 10px 10px black);    
+} 
+
+.nav-text  a {
+    padding-right: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 550;
+    transition: 0.5s;
+}
+
+.page1-main {
+    height: 90vh;
+}
+
+.page1-main .text {
+    margin-top: 5% ;
+    margin-left: 20%;
+}
+
+.form1 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5em;
+    border-radius: 4px solid black;
+    z-index: 100;
+}
+
+.page1-main label {
+    margin-left: -30px;
+}
+
+.page1-main .form-control {
+    width: 50vw;
+}
+
+.page1-main #exampleFormControlTextarea1 {
+    height: 25vh;
+}
+
+.page1-main .social {
+    height: 10vh;
+    width: 100vw;
+   display: flex;
+    justify-content: center;
+    
+}
+
+.page1-main .social img{
+    height: 3vh;
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-right: 20px;
+ }
+
+
+
+ /*  Footer  */
+ footer {
+  background: #111;
+  padding: 6px 16px;
+  color: #888c8d;
+  text-align: center;
+}
+
+footer span a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}

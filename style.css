@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Ubuntu&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(39, 39, 92);
+    color: aliceblue;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page1 nav{
+    height: 10vh;
+    width: 100vw;
+    color: rgb(12, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.page1 nav img {
+    height: 7vh;
+    margin-left: 50%;
+    transition: .5s;
+}
+
+.page1 nav img:hover{
+    filter: drop-shadow(11px 11px 20px black);    
+    cursor: pointer;
+}
+
+.page1 .nav-text {
+    margin-left: 10%;
+} 
+
+.nav-text a:hover {
+    color: blueviolet;
+    filter: drop-shadow(10px 10px 10px black);    
+} 
+
+.nav-text  a {
+    padding-right: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 550;
+    transition: 0.5s;
+}
+.page1-main {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: Roboto Condensed;
+}
+
+.page1-main>img {
+    height: 100vh;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.page1-text {
+    font-size: 1.5em;
+    line-height: 60px;
+    position: relative;
+    margin-left: -100px;
+}
+
+/* <--  page-2  --> */
+.page2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2-first {
+    height: 100vh;
+    width:50vw;
+    margin-top: 10%;
+    margin-left: 9%;
+    position: relative;
+    font-family: Ubuntu;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.page2-first h3 {
+    font-family: Kalnia;
+    margin: 10px 0;
+}
+
+.page2-first a {
+    text-decoration: none;
+    color: rgb(120, 118, 70);
+}
+
+.page2-second {
+    width:50vw;
+}
+
+.page2-second img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-bottom: 50%;
+  }
+
+button{
+    color: aliceblue;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #7d2ae8;
+    transition: all 0.2 ease;
+}
+button-active{
+    transform: scale(0.96)
+}
+
+/* <--  page-3  --> */
+.page3{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3-first {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page3-first img {
+    margin-left: 10%;
+    height: 50vh;
+    margin-bottom: 5%;
+}
+
+.page3-first a {
+    text-decoration: none;
+    color: brown;
+    transition: 0.4s;
+}
+
+.page3-first a:hover {
+    color: blueviolet;
+    filter: drop-shadow(10px 10px 10px black);  
+}
+
+.page3-second {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50vw;
+  
+}
+
+.page3-second img {
+    height: 30vh;
+}
+
+.pro1 img{
+    margin-left: 0%;
+}
+
+.pro2 img{
+    margin-left: 30%;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+
+/* < -- Page 5 --> */
+
+.page4 {
+    height: 3vh;
+    width: 100vw;
+    color: black;
+}
+
+.page4-content {
+    margin-left: 3%;
+}
+
+ /*  Footer  */
+ footer {
+    background: #111;
+    padding: 6px 16px;
+    color: #888c8d;
+    text-align: center;
+  }
+  
+  footer span a {
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  footer span a:hover {
+    text-decoration: underline;
+  }

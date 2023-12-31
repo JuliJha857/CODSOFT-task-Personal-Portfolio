@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Oswald&family=Rubik+Broken+Fax&family=Ubuntu&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(39, 39, 92);
+    color: aliceblue;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page1 nav{
+    height: 10vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    
+}
+
+.page1 nav img {
+    height: 7vh;
+    margin-left: 50%;
+    transition: .5s;
+    margin-left: 5%;
+}
+
+.page1 nav>a {
+    margin-left: 5%;
+}
+
+.page1 nav img:hover{
+    filter: drop-shadow(11px 11px 20px black);    
+    cursor: pointer;
+}
+
+.nav-text{
+    margin-left: 10%;
+}
+
+.nav-text a:hover {
+    color: blueviolet;
+    filter: drop-shadow(10px 10px 10px black);    
+} 
+
+.nav-text  a {
+    padding-right: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 550;
+    transition: 0.5s;
+}
+
+.page1-main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.page1-main .first {
+    width: 50vw;
+}
+
+.page1-main .first img {
+    margin-left: 15%;
+}
+
+.page1-main .second {
+    width: 50vw;
+    line-height: 30px;
+    margin-left: 5%;
+    font-family: Oswald;
+}
+
+.page1-main .second span {
+    font-size: 1rem;
+}
+
+.page1-main .second a {
+    text-decoration: none;
+    color: black;
+}
+
+ /* < -- page 2 --> */
+ .page2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.page2-first {
+    width: 50vw;
+    height: 100vh;
+}
+
+.page2-first video {
+    margin: 10% 10%;
+    width: 40vw;
+}
+
+.page2-second {
+    height: 100vh;
+    width: 50vw;
+    font-size: 1.2rem;
+}
+
+.page2-second{
+    margin-top: 30%;
+    margin-left: 0%;
+    width: 50vw;
+}
+
+
+ /* < -- page 3 --> */
+ .page3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3-first {
+    width: 50vw;
+    height: 100vh;
+}
+
+.page3-first-content{
+    margin-top: 30%;
+    margin-left: 3%;
+    font-size: 1.2rem;
+}
+
+.page3-second {
+    font-family: 'Times New Roman', Times, serif;
+    width: 50vw;
+    height: 100vh;
+}
+
+.page3-second video {
+    margin: 10% 10%;
+    width: 40vw;
+}
+ 
+    
+ /* < -- page 4 --> */
+ .page4 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.page4-first {
+    width: 50vw;
+    height: 100vh;
+}
+
+.page4-first video {
+    margin: 10% 10%;
+    width: 40vw;
+}
+
+.page4-second {
+    height: 100vh;
+    width: 50vw;
+    font-size: 1.2rem;
+}
+
+.page4-second{
+    margin-top: 30%;
+    margin-left: 0%;
+    width: 50vw;
+}
+
+
+ /* < -- page 3 --> */
+ .page5 {
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page5-first {
+    width: 50vw;
+    height: 100vh;
+}
+
+.page5-first-content{
+    margin-top: 30%;
+    margin-left: 3%;
+    font-size: 1.2rem;
+}
+
+.page5-second {
+    font-family: 'Times New Roman', Times, serif;
+    width: 50vw;
+    height: 100vh;
+}
+
+.page5-second video {
+    margin: 10% 10%;
+    width: 40vw;
+}
+
+/* < -- Page -5 --> */
+
+.page6{
+    width: 100vw;
+    height: 10vh;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 00;
+    
+}
+ 
+.page6 img {
+    height: 4vh;
+    margin: 15px 10px;
+}
